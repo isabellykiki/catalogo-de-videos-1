@@ -2,7 +2,7 @@ body {
     color: white;
     background: black;
     margin: 0px;
-    font-family: "Ckakra-petch", sans-serif;
+    font-family: "Ckakra Petch", sans-serif;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
     color: rgb(42, 122, 228);
 }
 
-section {
+.chamada {
     background: #000f24;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -30,4 +30,19 @@ h1 {
 
 p {
     font-size: 16px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categorias {
+    padding-left: 20px;
+    padding-right: 20px;
 }
